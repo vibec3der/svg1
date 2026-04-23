@@ -120,7 +120,7 @@ const OPEN_TAB_INJECT_SCRIPT = `
 
   try{
     const originalOpen=window.open;
-    if(!window.open.__lucideIntercepted){
+    if(!window.open.__edulearnIntercepted){
       window.open=function(url,target){
         const resolved=url&&url.href?url.href:url;
         const tgt=(target||'').toLowerCase();
@@ -131,7 +131,7 @@ const OPEN_TAB_INJECT_SCRIPT = `
         }
         return originalOpen.apply(this,arguments);
       };
-      window.open.__lucideIntercepted=true;
+      window.open.__edulearnIntercepted=true;
     }
   }catch(e){}
 

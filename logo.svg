@@ -8,47 +8,47 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            IXL | Math, Language Arts, Science, Social Studies, and Spanish
+            Classlink | Math, Language Arts, Science, Social Studies, and Spanish
         </title>
         <meta
             name="description"
-            content="IXL is the world's most popular subscription-based learning site for K-12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills."
+            content="Classlink is the world's most popular subscription-based learning site for K-12. Used by over 18 million students, Classlink provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills."
         />
         <meta
             property="og:title"
-            content="IXL | Math, Language Arts, Science, Social Studies, and Spanish"
+            content="Classlink | Math, Language Arts, Science, Social Studies, and Spanish"
         />
         <meta
             property="og:description"
-            content="IXL is the world's most popular subscription-based learning site for K-12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills."
+            content="Classlink is the world's most popular subscription-based learning site for K-12. Used by over 18 million students, Classlink provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills."
         />
-        <meta property="og:url" content="https://www.ixl.com" />
+        <meta property="og:url" content="https://www.classlink.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="IXL Learning" />
+        <meta property="og:site_name" content="Classlink Learning" />
         <meta property="twitter:account_id" content="541271822" />
         <meta property="fb:admins" content="100004219775346" />
-        <meta name="application-name" content="IXL Math" />
+        <meta name="application-name" content="Classlink Math" />
         <meta name="monetag" content="4de220ebe73c99353d5cb56c0403eea5" />
         <meta
             property="og:image"
-            content="https://www.ixl.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/general_us.png"
+            content="https://www.classlink.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/general_us.png"
         />
         <meta
             property="og:image"
-            content="https://www.ixl.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/math_us.png"
+            content="https://www.classlink.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/math_us.png"
         />
         <meta
             property="og:image"
-            content="https://www.ixl.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/ela_us.png"
+            content="https://www.classlink.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/ela_us.png"
         />
         <meta
             property="og:image"
-            content="https://www.ixl.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/square_og_ixl.png"
+            content="https://www.classlink.com/dv3/powZqMuTE7du4asFrVyNGxxoqkw/yui3/opengraph/assets/square_og_classlink.png"
         />
         <link
             rel="icon"
             type="image/png"
-            href="./branding/lucide.png"
+            href="./branding/edulearn.png"
         />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
         <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
@@ -70,14 +70,14 @@
         ></script>
         <script src="./runtime/scramjet/scramjet.all.js?v=moantkov"></script>
         <script src="./runtime/baremux/index.js?v=moantkov"></script>
-      <script crossorigin="anonymous">(function(){import("./assets/index-D9k6wOiP.js");})();</script>
-      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-CUCSa3dM.css" />
+      <script crossorigin="anonymous">(function(){import("./assets/index.js");})();</script>
+      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index.css" />
     
       </head>
       <body>
         <div id="root">
             <main
-                aria-label="IXL loading preview"
+                aria-label="Classlink loading preview"
                 style="
                     min-height: 100vh;
                     display: grid;
@@ -95,7 +95,7 @@
                         font-size: clamp(1.5rem, 3vw, 2.25rem);
                     "
                 >
-                    IXL Learning
+                    Classlink Learning
                 </h1>
                 <p style="margin: 0; max-width: 56ch; color: #1f2937">
                     Personalized practice for math, language arts, science,
@@ -105,9 +105,9 @@
         </div>
         <div style="display: none" aria-hidden="true">
             <section>
-                <h2>What IXL Is</h2>
+                <h2>What Classlink Is</h2>
                 <p>
-                    IXL is a learning platform focused on skills practice,
+                    Classlink is a learning platform focused on skills practice,
                     targeted review, and steady progress tracking for students.
                     It combines structured exercises with immediate feedback so
                     learners can quickly understand what they got right and what
@@ -147,7 +147,7 @@
             <section>
                 <h2>Subjects and Coverage</h2>
                 <p>
-                    IXL includes broad coverage across math, language arts,
+                    Classlink includes broad coverage across math, language arts,
                     science, social studies, and Spanish, with content that
                     spans early learning through advanced school years. The
                     platform is designed to support both catch-up practice and
