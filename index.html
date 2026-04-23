@@ -61,6 +61,24 @@
         <script src="https://cdn.jsdelivr.net/gh/vibec3der/svg1@latest/runtime/scramjet/scramjet.all.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/vibec3der/svg1@latest/runtime/baremux/index.js"></script>
 
+        <script>
+            // Fix Vite's __vite__mapDeps to use absolute CDN URLs
+            const CDN_BASE = 'https://cdn.jsdelivr.net/gh/vibec3der/svg1@latest/assets/';
+            
+            // Override import.meta.url context
+            window.__viteMetaUrl = CDN_BASE;
+            
+            // Intercept and patch dynamic imports
+            const originalFetch = window.fetch;
+            window.fetch = function(...args) {
+                const url = args[0];
+                if (typeof url === 'string' && url.startsWith('./') && url.endsWith('.js')) {
+                    args[0] = CDN_BASE + url.slice(2);
+                }
+                return originalFetch.apply(this, args);
+            };
+        </script>
+
         <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/vibec3der/svg1@latest/assets/index.js"></script>
         <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/vibec3der/svg1@latest/assets/index.css">
     </head>
